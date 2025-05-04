@@ -1,0 +1,9 @@
+Backend/.terraform
+Backend/.terraform.lock.hcl
+Backend/terraform.tfstate
+Backend/terraform.tfstate.backup
+Backend/terraform.tfvars
+Backend/terraform.tfvars.json
+Backend/terraform.tfvars.example
+Backend/terraform.tfvars.example.json
+Backend/terraform.tfvars.example.jsonc
