@@ -7,3 +7,6 @@ Backend/terraform.tfvars.json
 Backend/terraform.tfvars.example
 Backend/terraform.tfvars.example.json
 Backend/terraform.tfvars.example.jsonc
+
+.terraform.lock.hcl
+.terraform
