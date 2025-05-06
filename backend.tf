@@ -11,7 +11,7 @@ terraform {
   backend "s3" {
     bucket         = "ecom-biekro-bucket"
     key            = "terraform.tfstate"
-    region         = "us-east-1"         # Change to your desired region
+    region         = var.region        # Change to your desired region
     dynamodb_table = "ecom-biekro-table" # Optional, for state locking
     encrypt        = true                # Optional, for server-side encryption    
   }

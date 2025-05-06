@@ -1,3 +1,7 @@
+variable "region" {
+  description = "AWS region to deploy the resources"
+  type        = string
+}
 
 variable "vpc_cidr" {
   description = "CIDR block for the VPC"

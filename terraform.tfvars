@@ -6,6 +6,7 @@ public_subnet_cidrs  = ["10.16.0.0/20", "10.16.16.0/20", "10.16.32.0/20"]
 private_subnet_cidrs = ["10.16.128.0/20", "10.16.144.0/20", "10.16.160.0/20"]
 
 # EKS RELATED VARIABLES
+region = "us-east-1"
 cluster_version = "1.32"
 cluster_name    = "opentelemetry-cluster"
 
